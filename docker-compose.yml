@@ -1,0 +1,9 @@
+srtrelay:
+  image: ghcr.io/voc/srtrelay/srtrelay:latest
+  restart: always
+  container_name: srtrelay
+  volumes:
+    - ./srtrelay-config.toml:/home/srtrelay/config.toml
+  ports:
+    - "1337:1337/udp"
+    - "8080:8080/tcp"
