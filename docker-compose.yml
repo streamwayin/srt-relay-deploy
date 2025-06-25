@@ -5,5 +5,5 @@ srtrelay:
   volumes:
     - ./srtrelay-config.toml:/home/srtrelay/config.toml
   ports:
-    - "1337:1337/udp"
+    - "2222:2222/udp"
     - "8080:8080/tcp"

@@ -1,5 +1,5 @@
 [app]
-addresses = ["0.0.0.0:1337"]
+addresses = ["0.0.0.0:2222"]
 # listen on localhost
 #addresses = ["localhost:1337"]
 
